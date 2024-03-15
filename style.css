@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.body-header{
+    height: 90vh;
+    background-image:url("img/clg-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px 60px;
+}
+
+.nav-bar{
+    background-color: #665f6df9;
+    height: 70px;
+    line-height: 70px;
+}
+
+#brand{
+    display: inline-block;
+    margin-left: 70px;
+    color: orange;
+   text-decoration: underline;
+   font-family:verdana;
+   letter-spacing: 2px;
+}
+.nav-bar> ul{
+    float: right;
+ display: inline-block;
+}
+
+.nav-bar> ul> li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 40px;
+        text-transform: capitalize;
+        letter-spacing :1px;
+}
+
+.nav-bar> ul> li> a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar> ul> li> a:hover{
+    color:orange;
+    border-bottom: 1px solid lightgrey;
+    transition:all 1s ;
+}
