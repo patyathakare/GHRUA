@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 5px 60px;
+    margin: 5px 50px;
 }
 
 .nav-bar{
@@ -35,7 +35,7 @@
 .nav-bar> ul> li{
         display: inline-block;
         list-style: none;
-        margin-right: 40px;
+        margin-right: 25px;
         text-transform: capitalize;
         letter-spacing :1px;
         position: relative;
@@ -57,18 +57,18 @@
     color:orange;
     text-decoration: underline;
     text-underline-offset: 7px;
-    transition:all 1s ;   
+    transition:all 0.5s ;   
 }
 
 .nav-bar> ul> li> a:hover img{
                     border-radius: 50%;
                    box-shadow: 0px 0px 5px 2px rgb(224, 221, 221);
-
+                    transition: all 0.5s;
 }
 
 #home-info{
     height: 30vh;
-    width: 60vw;
+    width: 50vw;
     display: none;
     background-color: #665f6df9;
     color: white;
@@ -85,9 +85,10 @@
 
 #home-info> #boy{
     float: left;
-
+    border-right: 2px solid white;
+    margin-right: 70px ;
     >img{
         height:30vh;
-       
-    }  
+        margin-right:100px;
+    }
 }
