@@ -3,10 +3,6 @@
     padding:0px;
 }
 
-.text-center{
-    text-align: center;
-}
-
 .body-header{
     height: 90vh;
     background-image:url("img/clg-img.jpeg");
@@ -27,12 +23,13 @@
     margin-left: 70px;
     color: orange;
    text-decoration: underline;
+   text-underline-offset: 3px;
    font-family:verdana;
    letter-spacing: 2px;
 }
+
 .nav-bar> ul{
     float: right;
- display: inline-block;
 }
 
 .nav-bar> ul> li{
@@ -41,6 +38,7 @@
         margin-right: 40px;
         text-transform: capitalize;
         letter-spacing :1px;
+        position: relative;
 }
 
 .nav-bar> ul> li> a{
@@ -48,8 +46,48 @@
     text-decoration: none;
 }
 
+.nav-bar>ul >li >a >img{
+    height: 20px;
+   padding: 3px;
+   margin-right:5px;
+    vertical-align: middle;
+}
+
 .nav-bar> ul> li> a:hover{
     color:orange;
-    border-bottom: 1px solid lightgrey;
-    transition:all 1s ;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    transition:all 1s ;   
+}
+
+.nav-bar> ul> li> a:hover img{
+                    border-radius: 50%;
+                   box-shadow: 0px 0px 5px 2px rgb(224, 221, 221);
+
+}
+
+#home-info{
+    height: 30vh;
+    width: 60vw;
+    display: none;
+    background-color: #665f6df9;
+    color: white;
+    position:absolute;
+    right: -350px ;
+    line-height: normal;  
+    margin-top: 5px; 
+    padding: 20px;
+}
+
+.nav-bar> ul >li:hover #home-info{
+        display: block;
+}
+
+#home-info> #boy{
+    float: left;
+
+    >img{
+        height:30vh;
+       
+    }  
 }
