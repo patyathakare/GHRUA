@@ -30,9 +30,9 @@
    font-family:verdana;
    letter-spacing: 2px;
 }
+
 .nav-bar> ul{
     float: right;
- display: inline-block;
 }
 
 .nav-bar> ul> li{
