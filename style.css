@@ -75,7 +75,7 @@
     position:absolute;
     right: -350px ;
     line-height: normal;  
-    margin-top: 5px; 
+    margin-top: 2px; 
     padding: 20px;
 }
 
@@ -86,9 +86,19 @@
 #home-info> #boy{
     float: left;
     border-right: 2px solid white;
-    margin-right: 70px ;
+    margin: auto 70px auto 30px;
     >img{
         height:30vh;
         margin-right:100px;
+    }
+}
+
+#home-info> #one{
+    h1{
+        color: white;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        margin-bottom: 20px;
     }
 }
